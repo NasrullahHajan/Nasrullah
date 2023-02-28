@@ -1,0 +1,414 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+#headerr{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(209, 222, 222);
+   float: right;
+}
+.icon{
+    margin-top: 9px;
+    padding-right: 10px;
+    float: right;
+}
+
+.time{
+   
+    margin-inline: 100px;
+}
+#section{
+   width: 100%;
+   height: 160px;
+}
+.scicon{
+    margin-left: 350px;
+    margin-top: -80px;
+
+}
+.logo{
+    margin-left: 45px;
+}
+.sctext{
+    width: 130px;
+    margin-left: 400px;
+    margin-top: -40px
+}
+.calling{
+    margin-left: 580px;
+    margin-top: -80px;
+}
+.sales{
+    margin-left: 630px;
+    margin-top: -25px;
+    color: red;
+}
+.home{
+    margin: 15px;
+    padding: 10px;
+    text-justify: auto;
+}
+.number{
+    margin-left: 690px;
+    margin-top: -18px;
+}
+.service{
+    margin-left: 830px;
+    margin-top: -18px;
+    color: red;
+}
+
+.number1{
+    margin-left: 900px;
+    margin-top: -18px;
+}
+.parts{
+    margin-left: 830px;
+    margin-top: 10px;
+    color: red;
+}
+.number2{
+    margin-left: 900px;
+    margin-top: -18px;
+}
+.button{
+   width: 100px;
+   background-color: rgb(49, 47, 47);
+   margin-left: 1150px;
+   margin-top: -30px;
+   box-shadow: 20px;
+   box-shadow: rgba(122, 121, 121, 0.35) 0px 5px 15px;
+}
+.buton{
+    font-size: large;
+    color: aqua;
+    background-color: rgb(79, 148, 148);   
+}
+.buton:hover{
+  background-color: rgb(0, 0, 0);;
+}
+.nav{
+    max-width: none;
+    height: 26px;
+    display: flex;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.col{
+    margin: 1px;
+    
+}
+
+
+.nav2{
+    max-width: 1450px;
+    max-width: 65%;
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+    flex-wrap: wrap;
+    padding: 6px;
+    background-color: rgb(0, 0, 0);
+
+}
+.navbar{
+    display: inline;
+    text-indent: 120px;
+    float: left;
+    display: flex;
+    display: grid;
+    margin: 10px;
+}
+
+.nav3{
+    width: 20%;
+    height: 30px;
+    margin-right: 25px;
+    
+}
+.imp{
+    height: 100%;
+    height: 50px;
+    overflow: auto;
+}
+.bar{
+    width: 100%;
+    height: 40px; 
+    position: absolute;
+    margin-top: -376px;
+    background: rgba(240, 8, 0, 0.5);
+}
+.import{
+    width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+.color-hover{
+    color: rgb(255, 255, 255);
+   
+}
+.fa-solid{
+    color: rgb(249, 12, 12);
+}
+a:hover {
+    color: red;
+}
+.fa-solid:hover {
+    color: white;
+}
+.aside{
+    width: 200px;
+    height: 25rem;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    float: left;
+}
+.asid{
+    width: 200px;
+    height: 1530px;
+    background-color: bisque;
+    float: left;
+    margin: 20px;
+    background-color: blanchedalmond;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 780px;
+    display: grid;
+    grid-template-rows: repeat(17fr);
+}
+.item-aside{
+ background-color: rgb(255, 255, 255);
+ width: 195px;
+ height: 35px;
+ display: flex;
+ display: block;
+ justify-content: baseline;
+}
+.item-aside{
+    margin: 5px;
+}
+.sectionb1{
+    float: left;
+    width: 60%;
+    height: 50px;
+    margin: 10px;
+}
+.sectionb{
+    width: 60%;
+    height: 100px;
+    float: left;
+    background-color: rgb(93, 66, 66);
+}
+
+
+    
+
+.btn {
+    border: 2px solid rgb(186, 167, 167);
+    background-color: white;
+    color: black;
+    padding: 11px 25px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
+.form{
+    width: 540px;
+    height: 40px;
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container12{
+    display: flex;
+    display: contents;
+    justify-content: center;    
+}
+.canter1{
+   background-color: rgb(98, 60, 60);
+   width: 880px;
+   height: 40px;
+   margin: 10px;
+    
+}
+.serchbar{
+    background-color: rgb(145, 108, 60);
+    width: 900px;
+    height: 130px;
+    display: block;
+    display: flex;
+    margin-top: 10px;
+}
+
+.container1{
+    width: 900px;
+    height: 700px;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 35px;
+    column-gap: 22px;
+    margin-top: 20px;
+}
+.item{
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    height: 220px;
+    justify-content: center;
+    font-size: 1.5rem;   
+}
+.item:hover{
+    box-shadow: 0 0 50px #ccc;
+}
+.text1{
+    color: black;
+    text-decoration: none;
+}
+
+.text1:hover{
+    color: red;
+}
+
+.container2{
+    width: 10%;
+    height: 40px;
+    margin-top: 400px;
+    background-color: aquamarine;
+}
+
+.button-1 {
+  background-color: red;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  float: right;
+  margin: 17px;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: rgb(174, 137, 137);
+}
+.ARRIVALS{
+   width: 900px;
+   height: 100px;
+   display: flex;
+   display: block;
+   justify-content: flex-start;
+   justify-content: center;
+   float: left;
+   font-size: 40px;
+   margin-top: 15px;
+}
+.asideeright{
+    background-color: aqua;
+    margin-left: 15px;
+    width: 180px;
+    height: 500px;
+    float: left;
+}
+.TYPE-WISE{
+    float: left;
+    margin-top: 60px;
+    width: 900px;
+    height: 100px;
+    font-size: 30px;
+}
+.colspan{
+    margin-top: 40px;
+    width: 900px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 35px;
+    column-gap: 22px;
+}
+.icon3{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    display: flex;
+    justify-content: center;
+    display: block;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.icon3 a{
+    color: black;
+}
+:hover.icon3 a{
+    color: red;
+}
+.latest-Car-Offers{
+    background-color: aquamarine;
+}
+.footer{
+    background-color: black;
+    color: #FFFFFF;
+    width: 1349px;
+    display: flex;
+    height: 304px;  
+    margin-top: 2250px;
+}
+.footer2{
+    
+    width: 1349px;
+    height: 280px; 
+    flex: auto;
+    
+}
+.footer3{
+  
+  width: 1250px;
+  height: 250px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.footer4{
+
+}
+.icon-footer{
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+    
+}
+a{
+    color: aliceblue;
+}
